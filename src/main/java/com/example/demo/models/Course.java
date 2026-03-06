@@ -6,7 +6,7 @@ public class Course {
 private  String courseId;
 private  String name;
 private  double price;
-private double money_earned;
+private double  money_earned;
 @Nullable
 private  Teacher teacher;
 
