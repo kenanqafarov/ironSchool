@@ -24,6 +24,7 @@ public class Teacher {
     public String getName() {
         return name;
     }
+//    tESTING
 
     public void setName(String name) {
         this.name = name;
