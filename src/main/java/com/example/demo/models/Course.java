@@ -15,7 +15,7 @@ private  Teacher teacher;
         this.price = price;
         this.name=name;
     }
-
+@Nullable
     public Teacher getTeacher() {
         return teacher;
     }
