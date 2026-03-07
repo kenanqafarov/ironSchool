@@ -1,10 +1,14 @@
 package com.example.demo.models;
 
 import jakarta.annotation.Nullable;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.Positive;
 
 public class Course {
+    @Valid
 private  String courseId;
 private  String name;
+@Positive
 private  double price;
 private double  money_earned;
 @Nullable
@@ -14,6 +18,7 @@ private  Teacher teacher;
     public Course(String name, double price) {
         this.price = price;
         this.name=name;
+        this.money_earned=0;
     }
 @Nullable
     public Teacher getTeacher() {
